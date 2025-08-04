@@ -1,0 +1,184 @@
+# Nmap 7.97SVN scan initiated Mon Aug  4 16:35:30 2025 as: nmap -sS -T4 --min-rate 1000 --open -oA scan_report 172.20.10.0/24
+Host: 172.20.10.1 ()	Status: Up
+Host: 172.20.10.1 ()	Ports: 21/open/tcp//ftp///, 53/open/tcp//domain///, 49152/open/tcp/////, 62078/open/tcp//iphone-sync///	Ignored State: closed (996)
+Host: 172.20.10.4 ()	Status: Up
+Host: 172.20.10.4 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 1309/open/tcp//jtag-server///	Ignored State: filtered (996)
+Host: 172.20.10.5 ()	Status: Up
+Host: 172.20.10.5 ()	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 23/open/tcp//telnet///, 25/open/tcp//smtp///, 53/open/tcp//domain///, 80/open/tcp//http///, 111/open/tcp//rpcbind///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 512/open/tcp//exec///, 513/open/tcp//login///, 514/open/tcp//shell///, 1099/open/tcp//rmiregistry///, 1524/open/tcp//ingreslock///, 2049/open/tcp//nfs///, 2121/open/tcp//ccproxy-ftp///, 3306/open/tcp//mysql///, 5432/open/tcp//postgresql///, 5900/open/tcp//vnc///, 6000/open/tcp//X11///, 6667/open/tcp//irc///, 8009/open/tcp//ajp13///, 8180/open/tcp/////	Ignored State: closed (977)
+Host: 172.20.10.17 ()	Status: Up
+Host: 172.20.10.17 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.18 ()	Status: Up
+Host: 172.20.10.18 ()	Ports: 21/open/tcp//ftp///, 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (997)
+Host: 172.20.10.19 ()	Status: Up
+Host: 172.20.10.19 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.20 ()	Status: Up
+Host: 172.20.10.20 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.22 ()	Status: Up
+Host: 172.20.10.22 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.23 ()	Status: Up
+Host: 172.20.10.23 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.24 ()	Status: Up
+Host: 172.20.10.24 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.25 ()	Status: Up
+Host: 172.20.10.25 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.26 ()	Status: Up
+Host: 172.20.10.26 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.27 ()	Status: Up
+Host: 172.20.10.27 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.30 ()	Status: Up
+Host: 172.20.10.30 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.31 ()	Status: Up
+Host: 172.20.10.31 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.32 ()	Status: Up
+Host: 172.20.10.32 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.34 ()	Status: Up
+Host: 172.20.10.34 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.35 ()	Status: Up
+Host: 172.20.10.35 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.36 ()	Status: Up
+Host: 172.20.10.36 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.37 ()	Status: Up
+Host: 172.20.10.37 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.38 ()	Status: Up
+Host: 172.20.10.38 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.40 ()	Status: Up
+Host: 172.20.10.40 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.41 ()	Status: Up
+Host: 172.20.10.41 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.42 ()	Status: Up
+Host: 172.20.10.42 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.43 ()	Status: Up
+Host: 172.20.10.43 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.45 ()	Status: Up
+Host: 172.20.10.45 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.46 ()	Status: Up
+Host: 172.20.10.46 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.47 ()	Status: Up
+Host: 172.20.10.47 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.48 ()	Status: Up
+Host: 172.20.10.48 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.49 ()	Status: Up
+Host: 172.20.10.49 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.50 ()	Status: Up
+Host: 172.20.10.50 ()	Ports: 21/open/tcp//ftp///, 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (997)
+Host: 172.20.10.51 ()	Status: Up
+Host: 172.20.10.51 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.52 ()	Status: Up
+Host: 172.20.10.52 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.53 ()	Status: Up
+Host: 172.20.10.53 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.55 ()	Status: Up
+Host: 172.20.10.55 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.56 ()	Status: Up
+Host: 172.20.10.56 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.57 ()	Status: Up
+Host: 172.20.10.57 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.58 ()	Status: Up
+Host: 172.20.10.58 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.59 ()	Status: Up
+Host: 172.20.10.59 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.60 ()	Status: Up
+Host: 172.20.10.60 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.61 ()	Status: Up
+Host: 172.20.10.61 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.62 ()	Status: Up
+Host: 172.20.10.62 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.64 ()	Status: Up
+Host: 172.20.10.64 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.65 ()	Status: Up
+Host: 172.20.10.65 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.66 ()	Status: Up
+Host: 172.20.10.66 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.67 ()	Status: Up
+Host: 172.20.10.67 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.68 ()	Status: Up
+Host: 172.20.10.68 ()	Ports: 1723/open/tcp//pptp///	Ignored State: filtered (999)
+Host: 172.20.10.69 ()	Status: Up
+Host: 172.20.10.69 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.70 ()	Status: Up
+Host: 172.20.10.70 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.71 ()	Status: Up
+Host: 172.20.10.71 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.73 ()	Status: Up
+Host: 172.20.10.73 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.74 ()	Status: Up
+Host: 172.20.10.74 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.78 ()	Status: Up
+Host: 172.20.10.78 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.81 ()	Status: Up
+Host: 172.20.10.81 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.83 ()	Status: Up
+Host: 172.20.10.83 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.86 ()	Status: Up
+Host: 172.20.10.86 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.87 ()	Status: Up
+Host: 172.20.10.87 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.88 ()	Status: Up
+Host: 172.20.10.88 ()	Ports: 1723/open/tcp//pptp///	Ignored State: filtered (999)
+Host: 172.20.10.91 ()	Status: Up
+Host: 172.20.10.91 ()	Ports: 1723/open/tcp//pptp///	Ignored State: filtered (999)
+Host: 172.20.10.92 ()	Status: Up
+Host: 172.20.10.92 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.96 ()	Status: Up
+Host: 172.20.10.96 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.97 ()	Status: Up
+Host: 172.20.10.97 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.101 ()	Status: Up
+Host: 172.20.10.101 ()	Ports: 1723/open/tcp//pptp///	Ignored State: filtered (999)
+Host: 172.20.10.102 ()	Status: Up
+Host: 172.20.10.102 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.105 ()	Status: Up
+Host: 172.20.10.105 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.106 ()	Status: Up
+Host: 172.20.10.106 ()	Ports: 554/open/tcp//rtsp///, 1723/open/tcp//pptp///	Ignored State: filtered (998)
+Host: 172.20.10.107 ()	Status: Up
+Host: 172.20.10.107 ()	Ports: 1723/open/tcp//pptp///	Ignored State: filtered (999)
+Host: 172.20.10.110 ()	Status: Up
+Host: 172.20.10.110 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.116 ()	Status: Up
+Host: 172.20.10.116 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.117 ()	Status: Up
+Host: 172.20.10.117 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.125 ()	Status: Up
+Host: 172.20.10.125 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.126 ()	Status: Up
+Host: 172.20.10.126 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.132 ()	Status: Up
+Host: 172.20.10.132 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.135 ()	Status: Up
+Host: 172.20.10.135 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.141 ()	Status: Up
+Host: 172.20.10.141 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.145 ()	Status: Up
+Host: 172.20.10.145 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.151 ()	Status: Up
+Host: 172.20.10.151 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.152 ()	Status: Up
+Host: 172.20.10.152 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.155 ()	Status: Up
+Host: 172.20.10.155 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.157 ()	Status: Up
+Host: 172.20.10.157 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.174 ()	Status: Up
+Host: 172.20.10.174 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.176 ()	Status: Up
+Host: 172.20.10.176 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.181 ()	Status: Up
+Host: 172.20.10.181 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.187 ()	Status: Up
+Host: 172.20.10.187 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.196 ()	Status: Up
+Host: 172.20.10.196 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.197 ()	Status: Up
+Host: 172.20.10.197 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.198 ()	Status: Up
+Host: 172.20.10.198 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.204 ()	Status: Up
+Host: 172.20.10.204 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.211 ()	Status: Up
+Host: 172.20.10.211 ()	Ports: 554/open/tcp//rtsp///	Ignored State: filtered (999)
+Host: 172.20.10.214 ()	Status: Up
+Host: 172.20.10.214 ()	Ports: 21/open/tcp//ftp///	Ignored State: filtered (999)
+Host: 172.20.10.218 ()	Status: Up
+Host: 172.20.10.218 ()	Ports: 1723/open/tcp//pptp///	Ignored State: filtered (999)
+# Nmap done at Mon Aug  4 16:40:26 2025 -- 256 IP addresses (140 hosts up) scanned in 296.01 seconds

@@ -1,0 +1,729 @@
+# Nmap 7.97SVN scan initiated Mon Aug  4 16:35:30 2025 as: nmap -sS -T4 --min-rate 1000 --open -oA scan_report 172.20.10.0/24
+Nmap scan report for 172.20.10.1
+Host is up (0.0035s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE SERVICE
+21/tcp    open  ftp
+53/tcp    open  domain
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 56:2B:8D:97:B3:64 (Unknown)
+
+Nmap scan report for 172.20.10.4
+Host is up (0.00037s latency).
+Not shown: 996 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1309/tcp open  jtag-server
+MAC Address: 28:D0:43:C1:86:FA (AzureWave Technology)
+
+Nmap scan report for 172.20.10.5
+Host is up (0.0021s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+MAC Address: 00:0C:29:B9:CE:4C (VMware)
+
+Nmap scan report for 172.20.10.17
+Host is up (0.063s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.18
+Host is up (0.057s latency).
+Not shown: 997 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+21/tcp   open  ftp
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.19
+Host is up (0.062s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.20
+Host is up (0.065s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.22
+Host is up (0.066s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.23
+Host is up (0.077s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.24
+Host is up (0.067s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.25
+Host is up (0.060s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.26
+Host is up (0.063s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.27
+Host is up (0.064s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.30
+Host is up (0.073s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.31
+Host is up (0.069s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.32
+Host is up (0.066s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.34
+Host is up (0.073s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.35
+Host is up (0.069s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.36
+Host is up (0.070s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.37
+Host is up (0.072s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.38
+Host is up (0.067s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.40
+Host is up (0.069s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.41
+Host is up (0.062s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.42
+Host is up (0.069s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.43
+Host is up (0.068s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.45
+Host is up (0.069s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.46
+Host is up (0.068s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.47
+Host is up (0.068s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.48
+Host is up (0.071s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.49
+Host is up (0.067s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.50
+Host is up (0.060s latency).
+Not shown: 997 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+21/tcp   open  ftp
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.51
+Host is up (0.066s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.52
+Host is up (0.067s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.53
+Host is up (0.069s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.55
+Host is up (0.067s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.56
+Host is up (0.074s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.57
+Host is up (0.071s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.58
+Host is up (0.068s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.59
+Host is up (0.067s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.60
+Host is up (0.068s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.61
+Host is up (0.062s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.62
+Host is up (0.068s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.64
+Host is up (0.067s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.65
+Host is up (0.062s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.66
+Host is up (0.067s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.67
+Host is up (0.064s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.68
+Host is up (0.069s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.69
+Host is up (0.064s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.70
+Host is up (0.075s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.71
+Host is up (0.060s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.73
+Host is up (0.067s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.74
+Host is up (0.067s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.78
+Host is up (0.071s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.81
+Host is up (0.069s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.83
+Host is up (0.075s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.86
+Host is up (0.069s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.87
+Host is up (0.072s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.88
+Host is up (0.076s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.91
+Host is up (0.074s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.92
+Host is up (0.073s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.96
+Host is up (0.076s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.97
+Host is up (0.066s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.101
+Host is up (0.067s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.102
+Host is up (0.077s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.105
+Host is up (0.072s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.106
+Host is up (0.084s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.107
+Host is up (0.077s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+1723/tcp open  pptp
+
+Nmap scan report for 172.20.10.110
+Host is up (0.072s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.116
+Host is up (0.077s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.117
+Host is up (0.066s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.125
+Host is up (0.076s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.126
+Host is up (0.075s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.132
+Host is up (0.068s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.135
+Host is up (0.076s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.141
+Host is up (0.076s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.145
+Host is up (0.073s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.151
+Host is up (0.070s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.152
+Host is up (0.071s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.155
+Host is up (0.071s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.157
+Host is up (0.072s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.174
+Host is up (0.068s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.176
+Host is up (0.074s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.181
+Host is up (0.072s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.187
+Host is up (0.069s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.196
+Host is up (0.076s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.197
+Host is up (0.072s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.198
+Host is up (0.063s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.204
+Host is up (0.065s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.211
+Host is up (0.065s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+554/tcp open  rtsp
+
+Nmap scan report for 172.20.10.214
+Host is up (0.059s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap scan report for 172.20.10.218
+Host is up (0.066s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+1723/tcp open  pptp
+
+# Nmap done at Mon Aug  4 16:40:26 2025 -- 256 IP addresses (140 hosts up) scanned in 296.01 seconds
